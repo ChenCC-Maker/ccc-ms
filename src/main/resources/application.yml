@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: ccc-ms
+  datasource:
+    url: jdbc:mysql://localhost:3306/miaosha?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: Thebestccc6p
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# MyBatis 配置
+mybatis:
+  type-aliases-package: com.ccc.miaoshav1.domin,com.ccc.miaoshav1.vo
+  configuration:
+    map-underscore-to-camel-case: true
+
+server:
+  port: 8080
+  

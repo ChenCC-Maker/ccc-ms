@@ -18,7 +18,7 @@ import lombok.Setter;
 public class LoginVO {
 
     @NotNull
-    private String mobileNum;
+    private String nickname;
 
     @NotNull
     @PasswordLength() // 自定义注解，校验密码长度是否符合规范，后续可增加更多的校验规则

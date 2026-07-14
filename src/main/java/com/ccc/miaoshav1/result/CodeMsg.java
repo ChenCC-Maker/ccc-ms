@@ -20,6 +20,7 @@ public class CodeMsg {
     public static CodeMsg MOBILE_ERROR = new CodeMsg(500213, "手机号格式错误");
     public static CodeMsg MOBILE_NOT_EXIST = new CodeMsg(500214, "手机号不存在");
     public static CodeMsg PASSWORD_ERROR = new CodeMsg(500215, "密码错误");
+    public static CodeMsg LOGIN_LOCKED = new CodeMsg(500216, "账号已被锁定，请半小时后再试");
 
     // 商品模块 5003XX
     public static CodeMsg GOODS_NOT_EXIST = new CodeMsg(500300, "商品不存在");
